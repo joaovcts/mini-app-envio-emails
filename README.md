@@ -49,7 +49,7 @@ Caso a senha esteja incorreta, o programa exibirá uma mensagem de erro e pedir�
 Para gerar um **`.exe`** que pode ser usado sem instalação de Python, utilize:
 
 ```bash
-  pyinstaller --onefile --icon=icone.ico script.py
+  pyinstaller --onefile --icon=icone.ico script_teste.py
 ```
 
-Isso criará um arquivo .exe na pasta dist, que pode ser movido para qualquer computador.
+Isso criará um arquivo .exe na pasta dist com ícone de prefererência, que pode ser movido para qualquer computador.
